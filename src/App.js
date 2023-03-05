@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-function Square({ value, onSquareClick }) {
+function Square({ value, onSquareClick }) { //En esta parte e crea la función.
   return (
-    <button className="square" onClick={onSquareClick}>
+    <button className="square" onClick={onSquareClick}> //se crea al boton que llamará a la función
       {value}
     </button>
   );
